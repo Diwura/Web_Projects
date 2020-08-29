@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+
+body{
+    background-image:url(../Images/pexels-pixabay-210766.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+fieldset{
+    background: rgba(0, 15, 15, 0.8);}
+
+
+
+legend{
+    font: 5em,italic,bold,cursive;
+    font-family: 'Shadows Into Light';
+    color:white;
+    background: radial-gradient(farthest-side at left bottom,blue,green);
+}
+
+
+form{
+    min-width: 100vh;;
+    min-height: 100vh;
+    list-style-type:none;
+    position: absolute;
+    top:35%;
+    left:30%;
+    padding: 2em;
+    transform: translate(-5%,-35%);
+   
+    box-shadow:0px 16px 28px rgba(0,0,0,0.5);
+}
+
+ol{
+    list-style-type: none;
+    text-align: center;
+    margin: 2em;
+}
+li{
+    margin:2em;
+    border-radius: 12px;
+}
+
+input{
+    border-radius: 12px;
+    width: 70%;
+}
+
+#submit{
+    background: linear-gradient(90deg, yellow, orange 25%, purple);
+    letter-spacing: 8px;
+}
+
